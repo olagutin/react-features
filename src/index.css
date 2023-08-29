@@ -67,3 +67,32 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.card {
+  background-color: #a1a1a1;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+  width: 450px;
+  min-height: 600px;
+  padding: 30px 20px;
+  border: 1px solid #cecece;
+}
+
+.card.space {
+  background-image: linear-gradient(45deg, #effc77, #78f8f8);
+  color: #fff;
+  text-shadow: 0 0 5px #000;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  background-color: #f0f0f1;
+  font-size: 50px;
+}
+
+.item:not(:last-child) {
+  padding: 20px 0;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #f0f0f1;
+}
+
+.card.space .item:not(:last-child) {
+  border-bottom: 3px solid #fff;
+}
